@@ -1,0 +1,23 @@
+{
+  "name": "reactify",
+  "version": "1.0.0",
+  "description": "A react component that displays the most recent song played from Spotify",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristobalwee/reactify.git"
+  },
+  "keywords": [
+    "react",
+    "spotify"
+  ],
+  "author": "Cristobal Grana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristobalwee/reactify/issues"
+  },
+  "homepage": "https://github.com/cristobalwee/reactify#readme"
+}
