@@ -1,0 +1,17 @@
+.reactify-container {
+  font-family: inherit;
+  background-color: rgba(0, 0, 0, 0.65);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 3rem;
+  padding: 2rem;
+
+  p {
+    color: #d5d2d2;
+  }
+
+  h3, h6 {
+    color: white
+  }
+}
