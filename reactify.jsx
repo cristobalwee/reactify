@@ -7,12 +7,14 @@ class Reactify extends Component {
   render() {
     return(
       <div className="reactify-container">
-        <div className="reactify-img">
-
+        <span className="reactify-img">
+          <img src="/album.png"></img>
+        </span>
+        <div className="reactify-content">
+          <p>Currently listening to:</p>
+          <h4>Wide Eyes</h4>
+          <h5>By Local natives</h5>
         </div>
-        <p>Currently listening to:</p>
-        <h3>Wide Eyes</h3>
-        <h6>By Local natives</h6>
         <div className="close-icon">
           <img src="/closeicon.svg"></img>
         </div>

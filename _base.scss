@@ -5,13 +5,45 @@
   bottom: 0;
   right: 0;
   margin: 3rem;
-  padding: 2rem;
+  padding: 1.5rem;
+  padding-right: 5rem;
 
-  p {
-    color: #d5d2d2;
+  .reactify-img {
+    float: left;
+    position: relative;
+
+    img {
+      margin-right: 1.5rem;
+      margin-top: 1rem;
+    }
   }
 
-  h3, h6 {
-    color: white
+  .reactify-content {
+    float: right;
+    display: inline;
+
+    p {
+      color: #d5d2d2;
+    }
+
+    h4, h5 {
+      color: white;
+      margin-top: 0;
+    }
+
+    h5 {
+      margin-bottom: 0;
+    }
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 50%;
+    right: 1.5rem;
+    @include transform(translateY(-50%));
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
